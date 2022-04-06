@@ -12,14 +12,6 @@ package ac.ucr.b91682.hw01;
 public class App {
 
     public static void main(String args[]) {
-//        LotteryNumber today= new LotteryNumber();
-//        today.number=98;
-//        LotteryNumber tomorrow= new LotteryNumber();
-//        tomorrow.number=03;
-//        today.add(tomorrow);
-//        tomorrow.add(today);
-//        today= new LotteryNumber();
-//        today.number=33;
 
         LotteryNumber first = new LotteryNumber(98);
         first.add(new LotteryNumber(03));
@@ -32,8 +24,5 @@ public class App {
         System.out.println("Buscamos el número 33 "+first.find(33));
           System.out.println("Buscamos el número 88 "+first.find(88));
     }
-    //Tarea, hacer un find que pida los números mayores a ún número ingresado
-    //Que retorne esa lista y que luego la imprima
-    //se hacen dos variables de LotteryNumber con la lista nueva 
-    //el metodo se puede llamar search
+   
 }
