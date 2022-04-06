@@ -12,7 +12,7 @@ package ac.ucr.b91682.hw01;
 public class App {
 //branch tarea
     public static void main(String args[]) {
-
+//prueba del branch 2
         LotteryNumber first = new LotteryNumber(98);
         first.add(new LotteryNumber(03));
        
