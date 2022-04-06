@@ -10,7 +10,7 @@ package ac.ucr.b91682.hw01;
  * @author oandr
  */
 public class App {
-
+//branch tarea
     public static void main(String args[]) {
 
         LotteryNumber first = new LotteryNumber(98);
